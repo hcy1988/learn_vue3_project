@@ -1,0 +1,1 @@
+export const WHY_ENENT = "hcy";

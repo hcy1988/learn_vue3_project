@@ -1,13 +1,13 @@
 <template>
   <div>
-    HomeCentent:{{name}} - {{age}} - {{length.value}}
+    <h2>Home Page</h2>
+    <p>hehehe</p>
   </div>
 </template>
 
 <script>
   export default {
-    inject: ["name","age", "length"]
-
+    
   }
 </script>
 

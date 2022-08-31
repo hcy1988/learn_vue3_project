@@ -1,13 +1,12 @@
 <template>
   <div>
-    HomeCentent:{{name}} - {{age}} - {{length.value}}
+    <button>I am button component</button>
   </div>
 </template>
 
 <script>
   export default {
-    inject: ["name","age", "length"]
-
+    
   }
 </script>
 

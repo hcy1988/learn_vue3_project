@@ -1,13 +1,16 @@
 <template>
   <div>
-    HomeCentent:{{name}} - {{age}} - {{length.value}}
+    <h2>{{message}}</h2>
   </div>
 </template>
 
 <script>
   export default {
-    inject: ["name","age", "length"]
-
+    data() {
+      return {
+        message: "hello hcy"
+      }
+    }
   }
 </script>
 
